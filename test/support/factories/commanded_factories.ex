@@ -57,7 +57,7 @@ defmodule Factories.CommandedFactories do
                  handler_state: %{},
                  handler_name: nil
 
-        #  Props and lazy props will  be added to the factory data
+        #  Props and lazy props will be added to the factory data. They can be one of the following:
         # 1. A function accepting the factory data so far
         # 2. A zero-arity function
         # 3. A list representing the path to the data you want. ie [:context, :some_key_in_context]
